@@ -1,0 +1,1697 @@
+@import "_variables_template";
+
+#slide {
+    margin-top: 200px;
+}
+
+.row {
+    padding: 20px;
+}
+
+.toggle_menu.mobile-active {
+    background-color: $colorMain2;
+}
+
+.ds.text-pos {
+    text-align: left;
+}
+
+.diet-slider {
+    .carousel-indicators {
+        position: none;
+    }
+
+    h6 {
+        margin: 30px 0;
+    }
+}
+
+.svg-material {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.diet-step-2 {
+    .btn {
+        background-color: #20252b;
+        color: #fff;
+        display: block;
+        max-width: 545px;
+        margin: 30px auto 30px;
+
+        &:hover {
+            border-color: #fff;
+            background-color: $colorMain2;
+        }
+    }
+}
+
+.diet-step-3,
+.diet-step-4,
+.diet-step-5 {
+    .row {
+        max-width: 545px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .col-sm-4 {
+        .svg-material {
+            padding: 10px 20px;
+
+            &.checked {
+                border-color: $colorMain2;
+                background-color: $colorMain2;
+            }
+
+            img {
+                height: 120px;
+                width: 120px;
+            }
+
+            margin: 3px;
+        }
+    }
+
+    .col-6 {
+        .svg-material {
+            padding: 10px 10px;
+
+            img {
+                height: 80px;
+                width: 120px;
+            }
+
+            margin: 3px;
+        }
+    }
+}
+
+.diet-step-6 {
+    .btn {
+        background-color: #20252b;
+        color: #fff;
+        display: block;
+        max-width: 545px;
+        margin: 30px auto 30px;
+
+        &:hover {
+            border-color: $colorMain2;
+        }
+
+        &.checked {
+            border-color: $colorMain2;
+            background-color: $colorMain2;
+        }
+
+        &:active {
+            border-color: $colorMain2;
+            background-color: $colorMain2;
+        }
+    }
+}
+
+.diet-step-7,
+.diet-step-9 {
+    text-align: center;
+
+    input {
+        max-width: 500px;
+        display: inline-block;
+        text-align: center;
+        text-transform: lowercase;
+        border-bottom-color: #fff;
+        border-color: #20252b;
+        font-size: 20px;
+        height: 60px;
+        padding: 0px;
+        color: white;
+    }
+
+    ::placeholder {
+        color: #acacac;
+        opacity: 1;
+    }
+
+    .ds input {
+        max-width: 500px;
+        display: inline-block;
+        text-align: center;
+        text-transform: lowercase;
+        border-bottom-color: #fff;
+        border-color: #20252b;
+        font-size: 25px;
+        height: 60px;
+        padding: 0px;
+        background-color: #20252b;
+    }
+
+    .btn {
+        background-color: #20252b;
+        color: #fff;
+        display: block;
+        max-width: 500px;
+        margin: 30px auto 30px;
+
+        &:hover {
+            border-color: $colorMain2;
+        }
+
+        &.checked {
+            border-color: $colorMain2;
+            background-color: $colorMain2;
+        }
+    }
+
+    label {
+        color: $colorMain2;
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        color: $colorMain2;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #imperial,
+    #metric {
+        color: white;
+        font-size: 20px;
+    }
+
+    #ft {
+        display: inline-block;
+        max-width: 250px;
+    }
+
+    #inch {
+        display: inline-block;
+        max-width: 250px;
+    }
+
+    .form-row {
+        max-width: 545px;
+        margin: 30px auto 30px;
+    }
+
+    .container {
+        margin-top: 50px;
+    }
+}
+
+.diet-step-10 {
+    .container {
+        max-width: 1100px;
+    }
+
+    .col-md-4 {
+        cursor: pointer;
+    }
+
+    .col-md-4:hover {
+        opacity: 0.8;
+    }
+
+    #reduced-section {
+        justify-content: space-evenly;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .show-price {
+        opacity: 1;
+        background-color: black;
+        padding: 10px;
+        padding-top: 25px;
+        display: flex;
+
+        .original-price {
+            font-size: 30px;
+            text-decoration: line-through;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        .current-price {
+            font-size: 30px;
+            padding: 0;
+        }
+
+        p {
+            color: white;
+            padding: 12px;
+            font-size: 60px;
+            font-weight: bold;
+            margin-left: 40px;
+        }
+    }
+
+    #price-checked-4 {
+        width: 5px;
+        height: 5px;
+        background-color: #78bf4d;
+        border-radius: 13px;
+        margin-left: 35px;
+    }
+
+    #price-checked-12 {
+        width: 5px;
+        height: 5px;
+        background-color: red;
+        border-radius: 13px;
+        margin-left: 0px;
+    }
+
+    #price-checked-year {
+        width: 5px;
+        height: 5px;
+        background-color: red;
+        border-radius: 13px;
+        margin-left: 0px;
+    }
+
+    .price-text-content {
+        background-color: #78bf4d;
+        opacity: 1;
+        padding: 10px;
+
+        h5 {
+            font-size: 42px;
+            font-weight: bold;
+            margin: 0px;
+        }
+
+        h6 {
+            font-size: 28px;
+            margin: 0px;
+        }
+    }
+
+    .btn {
+        font-size: 22px;
+        min-width: 755px;
+        background-color: #009cde;
+        padding: 10px;
+        color: white;
+        font-style: oblique;
+        font-weight: bold;
+    }
+}
+
+#modal_stripe_pay {
+    h2 {
+        margin: 0px;
+    }
+
+    .w3-container {
+        padding: 60px;
+
+        label {
+            color: #009cde;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 28px;
+            font-weight: bolder;
+            padding: 7px;
+        }
+    }
+
+    .header-footer {
+        background-color: #009cde;
+        padding: 15px;
+        ;
+    }
+}
+
+#card-errors {
+    color: red;
+}
+
+.chart {
+    margin-bottom: 80px;
+}
+
+.diet-step-8 {
+    .btn {
+        background-color: #20252b;
+        color: #fff;
+        display: block;
+        max-width: 500px;
+        margin: 0px auto 50px;
+
+        &:hover {
+            border-color: $colorMain2;
+        }
+
+        &.checked {
+            border-color: $colorMain2;
+            background-color: $colorMain2;
+        }
+    }
+}
+
+.m-progress-bar {
+    margin-bottom: 50px;
+}
+
+.progress {
+    .progress-bar {
+        background-color: $colorMain2;
+    }
+}
+
+.diet-slider1 {
+    border: 0;
+    padding: 0;
+    background-image: url("assets/images/background.png");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#price_title {
+    font-weight: bold;
+    font-size: 54px;
+}
+
+#price_small_title {
+    font-size: 32px;
+    padding: 13px;
+    font-weight: bolder;
+}
+
+#price_page {
+    padding-bottom: 30px;
+
+    .price-heading {
+        display: block;
+        text-align: center;
+        padding: 70px 20px;
+
+        .recipe-heading {
+            font-weight: bold;
+            font-size: 54px;
+        }
+
+        .next-heading {
+            font-size: 32px;
+        }
+    }
+
+    .price-box {
+        justify-content: space-evenly;
+        text-align: center;
+
+        .each-price {
+            max-width: 300px;
+
+            .month-period {
+                background-color: #83d352;
+            }
+
+            .long-month-period {
+                background-color: #3ca10c;
+                color: white;
+            }
+
+            .year-period {
+                background-color: #008f4a;
+                color: white;
+            }
+
+            .premium-text {
+                background-color: #03572d;
+                color: white;
+            }
+        }
+
+        h1 {
+            font-size: 36px;
+            color: black;
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 36px;
+            color: black;
+            padding: 30px;
+            background-color: white;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 25px;
+            padding: 20px;
+        }
+    }
+}
+
+.errorMsg {
+    display: none;
+}
+
+#container {
+    margin-bottom: 50px;
+}
+
+.shop-single-tab {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.woocommerce-tabs {
+    margin: 57px auto;
+}
+
+.woocommerce-tabs .panel {
+    padding: 0px;
+    border: 0px;
+}
+
+.diet-slider3 {
+    .video-desc {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 0fr 3fr 2fr 0fr;
+    }
+
+    .video-link {
+        text-align: center;
+        align-self: center;
+
+        h1 {
+            margin: 80px 80px 20px 80px;
+        }
+    }
+}
+
+section {
+    position: unset;
+}
+
+.diet-slider4 {
+    .col-xl-3 {
+        padding: 0px;
+    }
+
+    .col-sm-6 {
+        padding: 0px;
+    }
+
+    background-color: #e6e6e6;
+    background-image: linear-gradient(#e6e6e6, #c3c3c3);
+}
+
+.diet-slider5 {
+    color: #808080;
+
+    .row {
+        padding: 0px;
+    }
+
+    div {
+        color: #808080;
+    }
+}
+
+#toTop {
+    background-color: $colorMain2;
+}
+
+#timetables {
+    background-image: url("/images/meal-plan.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#timetables #show_result {
+    border: 0;
+    padding: 0;
+    min-height: 100%;
+    min-width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.timetable .nav-tabs .week-num {
+    background: none;
+    border: none;
+}
+
+.timetable .nav-tabs .nav-item .one-week {
+    background: none;
+    border: 1px solid #e5e5e5;
+
+    &:hover {
+        background: $colorMain2;
+        border-color: $colorMain2;
+    }
+}
+
+.timetable .nav-tabs .nav-item .one-week.active {
+    background: $colorMain2;
+    border-color: $colorMain2;
+}
+
+.ds a:not(.btn):hover {
+    color: #fff;
+}
+
+// .ds .bordered {
+//   border-color: #fff;
+// }
+
+#show_recipe {
+    border: 0;
+    padding: 60px;
+    background-image: url("https://assets.appsforfit.com/assets/img/keto/backgrounds/meal-plan.jpg");
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+
+    h2 {
+        color: white;
+    }
+
+    .blog-title {
+        color: white;
+    }
+}
+
+.one-recipe {
+    justify-content: space-around;
+
+    .recipe-image {
+        width: 300px;
+    }
+}
+
+.post.content-padding.detailed-recipe {
+    width: 100%;
+}
+
+.ds .ls .light-color {
+    color: $lightColor;
+}
+
+#my_story1 {
+    border: 0;
+    padding: 0;
+    background-image: url("assets/images/lady_banner.png");
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.ds .color-darkgrey {
+    color: #20252b;
+}
+
+.percent {
+    color: white;
+}
+
+.pricing-plan .plan-name h3 {
+    font-weight: bolder;
+    color: #fff;
+}
+
+#date_num {
+    justify-content: space-between;
+}
+
+.click-here {
+    display: flex;
+    justify-content: center;
+}
+
+.click-here .flex-direction-nav .flex-nav-next .flex-next {
+    visibility: visible;
+    position: sticky;
+    margin-top: -5px;
+    color: $colorMain2;
+
+    &:hover {
+        color: $colorMain3;
+    }
+}
+
+.fa {
+    margin-right: 10px;
+    font-size: x-large;
+}
+
+#btn-next,
+#btn-prev {
+    padding-left: 22px;
+}
+
+.first_story {
+    .container-fluid {
+        padding: 0px;
+
+        .row {
+            padding: 0px;
+
+            label {
+                color: black;
+                font-weight: bolder;
+                font-size: 30px;
+                text-transform: lowercase;
+            }
+
+            .click-here .flex-direction-nav .flex-nav-next .flex-next {
+                visibility: visible;
+                position: sticky;
+                margin-top: 0px;
+                color: $colorMain2;
+
+                &:hover {
+                    color: $colorMain3;
+                }
+            }
+        }
+    }
+}
+
+.second_story {
+    .container-fluid {
+        padding: 0px;
+
+        .row {
+            padding: 0px;
+            margin-left: 300px;
+            margin-right: 300px;
+            margin-top: 30px;
+
+            .col-md-4 {
+                padding-top: 8px;
+
+                img {
+                    opacity: 1;
+                }
+            }
+
+            .story {
+                margin-top: 155px;
+            }
+
+            .label_story {
+                font-weight: bold;
+            }
+
+            h1 {
+                color: $colorMain2;
+                font-weight: bold;
+                font-size: 55px;
+            }
+
+            label {
+                color: black;
+                font-weight: bolder;
+                font-size: 30px;
+                text-transform: lowercase;
+            }
+
+            p {
+                color: black;
+                font-size: 20px;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+.diet-slider-price {
+    background-color: $colorMain2;
+
+    .col-md-4 {
+        cursor: pointer;
+    }
+
+    .price-content {
+        margin-top: 70px;
+    }
+
+    .select-week-4 {
+        background-color: #83d352;
+        padding: 20px;
+
+        h5 {
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            font-size: 36px;
+        }
+    }
+
+    .select-week-12 {
+        background-color: #26a920;
+        padding: 20px;
+
+        h5 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 36px;
+        }
+    }
+
+    .year-1 {
+        background-color: #008f4a;
+        padding: 20px;
+
+        h5 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 36px;
+        }
+    }
+
+    .show-price {
+        background-color: white;
+        padding: 20px;
+
+        p {
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: initial;
+        }
+    }
+
+    .price-text-content {
+        background-color: #005e32;
+        padding: 60px;
+    }
+
+    h6 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 35px;
+    }
+}
+
+#contact_page {
+    .col-lg-8 {
+        margin-left: 75px;
+        margin-top: 50px;
+    }
+
+    .section-heading h3 {
+        font-size: 50px;
+    }
+
+    .m-nav-footer {
+        padding: 50px;
+
+        .m-nav-footer__item {
+            font-size: 25px;
+        }
+    }
+}
+
+#checkbox_content {
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#first_story_title {
+    color: black;
+    font-weight: bold;
+}
+
+.flex-direction-nav .flex-nav-next .flex-next {
+    visibility: hidden;
+}
+
+.flex-direction-nav .flex-nav-prev .flex-prev {
+    visibility: hidden;
+}
+
+.ds .form-control:focus {
+    border-color: #aaaaa9;
+}
+
+.ds .form-control::placeholder {
+    color: #aaaaa9;
+}
+
+.ds input[type="text"] {
+    color: black;
+    text-transform: lowercase;
+}
+
+.ds textarea {
+    color: black;
+    text-transform: lowercase;
+}
+
+.ds input[type="email"] {
+    color: black;
+    text-transform: lowercase;
+}
+
+.ds .form-control {
+    color: black;
+    text-transform: lowercase;
+}
+
+.stripe_payment_agree {
+    padding: 15px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    max-width: 461px;
+    margin-left: 277px;
+
+    label {
+        color: black;
+    }
+}
+
+.disabled_button {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.loading {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.w3-modal {
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.w3-modal-content {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 600px
+}
+
+@media (max-width:600px) {
+    .w3-modal-content {
+        margin: 0 10px;
+        width: auto !important
+    }
+
+    .w3-modal {
+        padding-top: 30px
+    }
+}
+
+@media (max-width:768px) {
+    .w3-modal-content {
+        width: 500px
+    }
+
+    .w3-modal {
+        padding-top: 50px
+    }
+}
+
+@media (min-width:993px) {
+    .w3-modal-content {
+        width: 900px
+    }
+
+    .w3-hide-large {
+        display: none !important
+    }
+
+    .w3-sidebar.w3-collapse {
+        display: block !important
+    }
+}
+
+.w3-animate-zoom {
+    animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.w3-display-topright {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .s-py-lg-130 .container {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .second_story .container-fluid .row {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            padding-right: 10px;
+            padding-left: 10px;
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #slide {
+        margin-top: 40px;
+    }
+
+    #timetables #show_result {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .sf-menu {
+        border-top-color: $colorMain2;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1300px) {
+
+    .second_story .container-fluid .row {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 0px;
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            padding-right: 10px;
+            padding-left: 10px;
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .second_story .container-fluid .row {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 0px;
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            padding-right: 10px;
+            padding-left: 10px;
+            font-size: 18px;
+        }
+    }
+
+    .diet-slider-price {
+
+        .select-week-4 {
+            h5 {
+                font-size: 35px;
+            }
+        }
+
+        .select-week-12 {
+            h5 {
+                font-size: 35px;
+            }
+        }
+
+        .year-1 {
+            h5 {
+                font-size: 35px;
+            }
+        }
+
+        .show-price {
+            p {
+                font-size: 25px;
+                line-height: initial;
+            }
+        }
+
+        h6 {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+    }
+
+    #price_title {
+        font-size: 50px;
+    }
+
+    #price_small_title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1700px) and (min-width: 1500px) {
+
+    .second_story .container-fluid .row {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .second_story {
+        .container-fluid {
+            padding: 0px;
+
+            .row {
+                padding: 0px;
+                margin-left: 300px;
+                margin-right: 300px;
+                margin-top: 30px;
+
+                .col-md-4 {
+                    padding-top: 8px;
+
+                    img {
+                        opacity: 1;
+                    }
+                }
+
+                .story {
+                    margin-top: 155px;
+                }
+
+                .label_story {
+                    font-weight: bold;
+                }
+
+                h1 {
+                    color: $colorMain2;
+                    font-weight: bold;
+                    font-size: 55px;
+                }
+
+                label {
+                    color: black;
+                    font-weight: bolder;
+                    font-size: 30px;
+                    text-transform: lowercase;
+                }
+
+                p {
+                    color: black;
+                    font-size: 20px;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+
+    .diet-slider-price {
+        background-color: $colorMain2;
+
+        .container-fluid {
+            padding: 0px;
+
+            .row {
+                padding: 0px;
+                margin-left: 300px;
+                margin-right: 300px;
+            }
+        }
+
+        .col-md-4 {
+            padding: 20px;
+        }
+
+        .price-content {
+            margin-top: 70px;
+        }
+
+        .select-week-4 {
+            background-color: #83d352;
+            padding: 20px;
+
+            h5 {
+                color: black;
+                text-align: center;
+                font-weight: bold;
+                font-size: 36px;
+            }
+        }
+
+        .select-week-12 {
+            background-color: #26a920;
+            padding: 20px;
+
+            h5 {
+                text-align: center;
+                font-weight: bold;
+                font-size: 36px;
+            }
+        }
+
+        .year-1 {
+            background-color: #008f4a;
+            padding: 20px;
+
+            h5 {
+                text-align: center;
+                font-weight: bold;
+                font-size: 36px;
+            }
+        }
+
+        .show-price {
+            background-color: white;
+            padding: 20px;
+
+            p {
+                color: black;
+                text-align: center;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: initial;
+            }
+        }
+
+        .price-text-content {
+            background-color: #005e32;
+            padding: 20px;
+        }
+
+        h6 {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .newsletter #send_contact {
+        padding: 5px 25px;
+    }
+
+    .diet-step-10 .final-price-section {
+        .final-price {
+            margin-right: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #stripe_pay {
+        min-width: 100%;
+    }
+
+    .stripe_payment_agree {
+        max-width: 100%;
+    }
+
+    .diet-step-10 {
+        .final-price-section {
+            justify-content: center;
+
+            .final-price {
+                display: grid;
+                justify-content: center;
+                margin-bottom: 30px;
+                max-width: 100%;
+            }
+        }
+    }
+
+    #contact_page .block-contact {
+        display: block;
+
+        .food-network {
+            max-width: 50%;
+        }
+
+        .o-footer__nav-footer {
+            align-items: center;
+
+            a {
+                font-size: 25px;
+            }
+        }
+
+        .contact-input {
+            max-width: 100%;
+        }
+    }
+
+    .diet-slider3 {
+        .video-desc {
+            display: block;
+
+            .video-link {
+                img {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+
+    #price_page {
+        .price-box {
+            display: grid;
+            grid-row-gap: 40px;
+        }
+    }
+
+    #send_contact {
+        display: block;
+        margin: auto;
+        font-size: 20px;
+        margin-top: 15px;
+        padding: 10px 20px;
+    }
+
+    #test-form .newsletter {
+        display: block;
+        text-align: center;
+
+        input {
+            width: 30%;
+        }
+    }
+
+    #download_pdf {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .diet-slider-price {
+        .container-fluid .row {
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 15px;
+        }
+
+        .col-md-4 {
+            padding: 0px;
+        }
+
+        .divider {
+            margin-top: 15px;
+            padding-right: 25px;
+            padding-left: 25px;
+        }
+
+        .price-content {
+            margin-left: 0px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 30px;
+        }
+
+        .select-week-4 {
+            h5 {
+                font-size: 30px;
+            }
+        }
+
+        .select-week-12 {
+            h5 {
+                font-size: 30px;
+            }
+        }
+
+        .year-1 {
+            h5 {
+                font-size: 30px;
+            }
+        }
+
+        .show-price {
+            p {
+                font-size: 30px;
+                line-height: initial;
+            }
+        }
+
+        h6 {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 24px;
+        }
+    }
+
+    #price_title {
+        font-size: 30px;
+    }
+
+    #price_small_title {
+        font-size: 20px;
+    }
+
+    .second_story .container-fluid .row {
+        margin: 0px;
+
+        .col-md-5 {
+            padding-top: 30px;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        .story {
+            margin-top: 10px;
+        }
+
+        .label_story {
+            font-size: 20px;
+        }
+    }
+
+    #contact_page {
+        .m-nav-footer {
+            .m-nav-footer__item {
+                font-size: 15px;
+            }
+        }
+
+        .col-lg-8 {
+            margin: 0px;
+        }
+
+        .section-heading {
+            h3 {
+                font-size: 35px;
+            }
+        }
+
+        .divider-50 {
+            margin-top: 0px;
+        }
+    }
+
+    .diet-step-10 {
+        .container-fluid {
+            padding: 0px;
+        }
+
+        .col-md-4 {
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            font-size: 18px;
+            min-width: 330px;
+            background-color: #009cde;
+            padding: 8px;
+        }
+
+        .show-price {
+            p {
+                font-size: 30px;
+                margin-left: 85px;
+            }
+        }
+
+        #price-checked-12 {
+            margin-left: 20px;
+        }
+
+        #price-checked-year {
+            margin-left: 20px;
+        }
+
+        .price-text-content {
+            h5 {
+                font-size: 30px;
+            }
+
+            h6 {
+                font-size: 21px;
+            }
+        }
+
+    }
+
+    #modal_stripe_pay .w3-container {
+        padding-left: 16px;
+        padding-right: 16px;
+
+        .btn {
+            min-width: 308px;
+        }
+    }
+
+    .stripe_payment_agree {
+        margin-left: 0px;
+    }
+
+}
+
+.newsletter {
+    display: grid;
+    grid-template-columns: 0fr 1.5fr 1.5fr 1fr 1fr;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    p {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        color: black;
+        font-family: Roboto, sans-serif;
+    }
+
+    h2 {
+        padding: 0;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    .correct-answer {
+        width: 50%;
+        padding: 9px 15px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+
+    .formula {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 15px 0;
+    }
+
+    .send-contact:hover {
+        border: 0;
+        pointer-events: none;
+        opacity: 0.5;
+        cursor: none;
+        background-color: $colorMain2;
+    }
+
+    .send-contact {
+        border: 0;
+        pointer-events: none;
+        opacity: 0.5;
+        cursor: none;
+        background-color: white;
+    }
+
+    .able-to-contact {
+        background-color: $colorMain2;
+    }
+}
+
+#send_contact {
+    color: black;
+    padding: 5px;
+    font-size: 27px;
+}
+
+#footer-process {
+    .progress-name {
+        top: -38px;
+    }
+}
+
+
+.footer-list .food-network {
+    max-width: 75%;
+}
+
+.white-input {
+    background-color: white !important;
+    border-color: lightgrey !important;
+}
+
+input[type="checkbox"]+label:before {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    line-height: 23px;
+}
+
+#terms-con {
+    color: black;
+    text-decoration: underline;
+}
+
+#terms-con:hover {
+    color: $colorMain2;
+}
+
+#test-form {
+
+    input,
+    textarea {
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    #message {
+        padding-top: 9px;
+    }
+
+    .policy-terms {
+        margin: 0;
+    }
+}
+
+.diet-step-10 {
+    .final-price {
+        max-width: 300px;
+        margin-right: 30px;
+    }
+
+    .final-price:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+
+.m-item-summary__title.height-line {
+    line-height: 60px;
+}
+
+.one-recipe .recipe-width {
+    width: 300px;
+}
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+.StripeElement {
+    box-sizing: border-box;
+
+    height: 40px;
+    width: 100%;
+
+    padding: 10px 12px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: $colorMain2;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}

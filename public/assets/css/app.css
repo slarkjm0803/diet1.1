@@ -1,0 +1,1691 @@
+#slide {
+  margin-top: 200px;
+}
+
+.row {
+  padding: 20px;
+}
+
+.toggle_menu.mobile-active {
+  background-color: #78bf4d;
+}
+
+.ds.text-pos {
+  text-align: left;
+}
+
+.diet-slider .carousel-indicators {
+  position: none;
+}
+
+.diet-slider h6 {
+  margin: 30px 0;
+}
+
+.svg-material {
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+
+.diet-step-2 .btn {
+  background-color: #20252b;
+  color: #fff;
+  display: block;
+  max-width: 545px;
+  margin: 30px auto 30px;
+}
+
+.diet-step-2 .btn:hover {
+  border-color: #fff;
+  background-color: #78bf4d;
+}
+
+.diet-step-3 .row,
+.diet-step-4 .row,
+.diet-step-5 .row {
+  max-width: 545px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.diet-step-3 .col-sm-4 .svg-material,
+.diet-step-4 .col-sm-4 .svg-material,
+.diet-step-5 .col-sm-4 .svg-material {
+  padding: 10px 20px;
+  margin: 3px;
+}
+
+.diet-step-3 .col-sm-4 .svg-material.checked,
+.diet-step-4 .col-sm-4 .svg-material.checked,
+.diet-step-5 .col-sm-4 .svg-material.checked {
+  border-color: #78bf4d;
+  background-color: #78bf4d;
+}
+
+.diet-step-3 .col-sm-4 .svg-material img,
+.diet-step-4 .col-sm-4 .svg-material img,
+.diet-step-5 .col-sm-4 .svg-material img {
+  height: 120px;
+  width: 120px;
+}
+
+.diet-step-3 .col-6 .svg-material,
+.diet-step-4 .col-6 .svg-material,
+.diet-step-5 .col-6 .svg-material {
+  padding: 10px 10px;
+  margin: 3px;
+}
+
+.diet-step-3 .col-6 .svg-material img,
+.diet-step-4 .col-6 .svg-material img,
+.diet-step-5 .col-6 .svg-material img {
+  height: 80px;
+  width: 120px;
+}
+
+.diet-step-6 .btn {
+  background-color: #20252b;
+  color: #fff;
+  display: block;
+  max-width: 545px;
+  margin: 30px auto 30px;
+}
+
+.diet-step-6 .btn:hover {
+  border-color: #78bf4d;
+}
+
+.diet-step-6 .btn.checked {
+  border-color: #78bf4d;
+  background-color: #78bf4d;
+}
+
+.diet-step-6 .btn:active {
+  border-color: #78bf4d;
+  background-color: #78bf4d;
+}
+
+.diet-step-7,
+.diet-step-9 {
+  text-align: center;
+}
+
+.diet-step-7 input,
+.diet-step-9 input {
+  max-width: 500px;
+  display: inline-block;
+  text-align: center;
+  text-transform: lowercase;
+  border-bottom-color: #fff;
+  border-color: #20252b;
+  font-size: 20px;
+  height: 60px;
+  padding: 0px;
+  color: white;
+}
+
+.diet-step-7 ::-webkit-input-placeholder, .diet-step-9 ::-webkit-input-placeholder {
+  color: #acacac;
+  opacity: 1;
+}
+
+.diet-step-7 ::-moz-placeholder, .diet-step-9 ::-moz-placeholder {
+  color: #acacac;
+  opacity: 1;
+}
+
+.diet-step-7 :-ms-input-placeholder, .diet-step-9 :-ms-input-placeholder {
+  color: #acacac;
+  opacity: 1;
+}
+
+.diet-step-7 ::-ms-input-placeholder, .diet-step-9 ::-ms-input-placeholder {
+  color: #acacac;
+  opacity: 1;
+}
+
+.diet-step-7 ::placeholder,
+.diet-step-9 ::placeholder {
+  color: #acacac;
+  opacity: 1;
+}
+
+.diet-step-7 .ds input,
+.diet-step-9 .ds input {
+  max-width: 500px;
+  display: inline-block;
+  text-align: center;
+  text-transform: lowercase;
+  border-bottom-color: #fff;
+  border-color: #20252b;
+  font-size: 25px;
+  height: 60px;
+  padding: 0px;
+  background-color: #20252b;
+}
+
+.diet-step-7 .btn,
+.diet-step-9 .btn {
+  background-color: #20252b;
+  color: #fff;
+  display: block;
+  max-width: 500px;
+  margin: 30px auto 30px;
+}
+
+.diet-step-7 .btn:hover,
+.diet-step-9 .btn:hover {
+  border-color: #78bf4d;
+}
+
+.diet-step-7 .btn.checked,
+.diet-step-9 .btn.checked {
+  border-color: #78bf4d;
+  background-color: #78bf4d;
+}
+
+.diet-step-7 label,
+.diet-step-9 label {
+  color: #78bf4d;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.diet-step-7 p,
+.diet-step-9 p {
+  color: #78bf4d;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.diet-step-7 #imperial,
+.diet-step-7 #metric,
+.diet-step-9 #imperial,
+.diet-step-9 #metric {
+  color: white;
+  font-size: 20px;
+}
+
+.diet-step-7 #ft,
+.diet-step-9 #ft {
+  display: inline-block;
+  max-width: 250px;
+}
+
+.diet-step-7 #inch,
+.diet-step-9 #inch {
+  display: inline-block;
+  max-width: 250px;
+}
+
+.diet-step-7 .form-row,
+.diet-step-9 .form-row {
+  max-width: 545px;
+  margin: 30px auto 30px;
+}
+
+.diet-step-7 .container,
+.diet-step-9 .container {
+  margin-top: 50px;
+}
+
+.diet-step-10 .container {
+  max-width: 1100px;
+}
+
+.diet-step-10 .col-md-4 {
+  cursor: pointer;
+}
+
+.diet-step-10 .col-md-4:hover {
+  opacity: 0.8;
+}
+
+.diet-step-10 #reduced-section {
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.diet-step-10 .show-price {
+  opacity: 1;
+  background-color: black;
+  padding: 10px;
+  padding-top: 25px;
+  display: -webkit-box;
+  display: flex;
+}
+
+.diet-step-10 .show-price .original-price {
+  font-size: 30px;
+  text-decoration: line-through;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.diet-step-10 .show-price .current-price {
+  font-size: 30px;
+  padding: 0;
+}
+
+.diet-step-10 .show-price p {
+  color: white;
+  padding: 12px;
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.diet-step-10 #price-checked-4 {
+  width: 5px;
+  height: 5px;
+  background-color: #78bf4d;
+  border-radius: 13px;
+  margin-left: 35px;
+}
+
+.diet-step-10 #price-checked-12 {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 13px;
+  margin-left: 0px;
+}
+
+.diet-step-10 #price-checked-year {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 13px;
+  margin-left: 0px;
+}
+
+.diet-step-10 .price-text-content {
+  background-color: #78bf4d;
+  opacity: 1;
+  padding: 10px;
+}
+
+.diet-step-10 .price-text-content h5 {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.diet-step-10 .price-text-content h6 {
+  font-size: 28px;
+  margin: 0px;
+}
+
+.diet-step-10 .btn {
+  font-size: 22px;
+  min-width: 755px;
+  background-color: #009cde;
+  padding: 10px;
+  color: white;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+#modal_stripe_pay h2 {
+  margin: 0px;
+}
+
+#modal_stripe_pay .w3-container {
+  padding: 60px;
+}
+
+#modal_stripe_pay .w3-container label {
+  color: #009cde;
+  font-size: 20px;
+}
+
+#modal_stripe_pay .w3-container p {
+  font-size: 28px;
+  font-weight: bolder;
+  padding: 7px;
+}
+
+#modal_stripe_pay .header-footer {
+  background-color: #009cde;
+  padding: 15px;
+}
+
+#card-errors {
+  color: red;
+}
+
+.chart {
+  margin-bottom: 80px;
+}
+
+.diet-step-8 .btn {
+  background-color: #20252b;
+  color: #fff;
+  display: block;
+  max-width: 500px;
+  margin: 0px auto 50px;
+}
+
+.diet-step-8 .btn:hover {
+  border-color: #78bf4d;
+}
+
+.diet-step-8 .btn.checked {
+  border-color: #78bf4d;
+  background-color: #78bf4d;
+}
+
+.m-progress-bar {
+  margin-bottom: 50px;
+}
+
+.progress .progress-bar {
+  background-color: #78bf4d;
+}
+
+.diet-slider1 {
+  border: 0;
+  padding: 0;
+  background-image: url(/images/background.png?af331fcff2e8aa7c13a18825fd95c48d);
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#price_title {
+  font-weight: bold;
+  font-size: 54px;
+}
+
+#price_small_title {
+  font-size: 32px;
+  padding: 13px;
+  font-weight: bolder;
+}
+
+#price_page {
+  padding-bottom: 30px;
+}
+
+#price_page .price-heading {
+  display: block;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+#price_page .price-heading .recipe-heading {
+  font-weight: bold;
+  font-size: 54px;
+}
+
+#price_page .price-heading .next-heading {
+  font-size: 32px;
+}
+
+#price_page .price-box {
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+
+#price_page .price-box .each-price {
+  max-width: 300px;
+}
+
+#price_page .price-box .each-price .month-period {
+  background-color: #83d352;
+}
+
+#price_page .price-box .each-price .long-month-period {
+  background-color: #3ca10c;
+  color: white;
+}
+
+#price_page .price-box .each-price .year-period {
+  background-color: #008f4a;
+  color: white;
+}
+
+#price_page .price-box .each-price .premium-text {
+  background-color: #03572d;
+  color: white;
+}
+
+#price_page .price-box h1 {
+  font-size: 36px;
+  color: black;
+  padding: 20px;
+  font-weight: bold;
+}
+
+#price_page .price-box h2 {
+  font-size: 36px;
+  color: black;
+  padding: 30px;
+  background-color: white;
+  font-weight: bold;
+}
+
+#price_page .price-box p {
+  font-size: 25px;
+  padding: 20px;
+}
+
+.errorMsg {
+  display: none;
+}
+
+#container {
+  margin-bottom: 50px;
+}
+
+.shop-single-tab {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.woocommerce-tabs {
+  margin: 57px auto;
+}
+
+.woocommerce-tabs .panel {
+  padding: 0px;
+  border: 0px;
+}
+
+.diet-slider3 .video-desc {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 0fr 3fr 2fr 0fr;
+}
+
+.diet-slider3 .video-link {
+  text-align: center;
+  align-self: center;
+}
+
+.diet-slider3 .video-link h1 {
+  margin: 80px 80px 20px 80px;
+}
+
+section {
+  position: unset;
+}
+
+.diet-slider4 {
+  background-color: #e6e6e6;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#c3c3c3));
+  background-image: linear-gradient(#e6e6e6, #c3c3c3);
+}
+
+.diet-slider4 .col-xl-3 {
+  padding: 0px;
+}
+
+.diet-slider4 .col-sm-6 {
+  padding: 0px;
+}
+
+.diet-slider5 {
+  color: #808080;
+}
+
+.diet-slider5 .row {
+  padding: 0px;
+}
+
+.diet-slider5 div {
+  color: #808080;
+}
+
+#toTop {
+  background-color: #78bf4d;
+}
+
+#timetables {
+  background-image: url("/images/meal-plan.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#timetables #show_result {
+  border: 0;
+  padding: 0;
+  min-height: 100%;
+  min-width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.timetable .nav-tabs .week-num {
+  background: none;
+  border: none;
+}
+
+.timetable .nav-tabs .nav-item .one-week {
+  background: none;
+  border: 1px solid #e5e5e5;
+}
+
+.timetable .nav-tabs .nav-item .one-week:hover {
+  background: #78bf4d;
+  border-color: #78bf4d;
+}
+
+.timetable .nav-tabs .nav-item .one-week.active {
+  background: #78bf4d;
+  border-color: #78bf4d;
+}
+
+.ds a:not(.btn):hover {
+  color: #fff;
+}
+
+#show_recipe {
+  border: 0;
+  padding: 60px;
+  background-image: url("https://assets.appsforfit.com/assets/img/keto/backgrounds/meal-plan.jpg");
+  min-height: 100%;
+  min-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#show_recipe h2 {
+  color: white;
+}
+
+#show_recipe .blog-title {
+  color: white;
+}
+
+.one-recipe {
+  justify-content: space-around;
+}
+
+.one-recipe .recipe-image {
+  width: 300px;
+}
+
+.post.content-padding.detailed-recipe {
+  width: 100%;
+}
+
+.ds .ls .light-color {
+  color: #ffffff;
+}
+
+#my_story1 {
+  border: 0;
+  padding: 0;
+  background-image: url(/images/lady_banner.png?09013f9ae8ae6f931524e0dcefefd394);
+  min-height: 100%;
+  min-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.ds .color-darkgrey {
+  color: #20252b;
+}
+
+.percent {
+  color: white;
+}
+
+.pricing-plan .plan-name h3 {
+  font-weight: bolder;
+  color: #fff;
+}
+
+#date_num {
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.click-here {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.click-here .flex-direction-nav .flex-nav-next .flex-next {
+  visibility: visible;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: -5px;
+  color: #78bf4d;
+}
+
+.click-here .flex-direction-nav .flex-nav-next .flex-next:hover {
+  color: #82b440;
+}
+
+.fa {
+  margin-right: 10px;
+  font-size: x-large;
+}
+
+#btn-next,
+#btn-prev {
+  padding-left: 22px;
+}
+
+.first_story .container-fluid {
+  padding: 0px;
+}
+
+.first_story .container-fluid .row {
+  padding: 0px;
+}
+
+.first_story .container-fluid .row label {
+  color: black;
+  font-weight: bolder;
+  font-size: 30px;
+  text-transform: lowercase;
+}
+
+.first_story .container-fluid .row .click-here .flex-direction-nav .flex-nav-next .flex-next {
+  visibility: visible;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: 0px;
+  color: #78bf4d;
+}
+
+.first_story .container-fluid .row .click-here .flex-direction-nav .flex-nav-next .flex-next:hover {
+  color: #82b440;
+}
+
+.second_story .container-fluid {
+  padding: 0px;
+}
+
+.second_story .container-fluid .row {
+  padding: 0px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 30px;
+}
+
+.second_story .container-fluid .row .col-md-4 {
+  padding-top: 8px;
+}
+
+.second_story .container-fluid .row .col-md-4 img {
+  opacity: 1;
+}
+
+.second_story .container-fluid .row .story {
+  margin-top: 155px;
+}
+
+.second_story .container-fluid .row .label_story {
+  font-weight: bold;
+}
+
+.second_story .container-fluid .row h1 {
+  color: #78bf4d;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.second_story .container-fluid .row label {
+  color: black;
+  font-weight: bolder;
+  font-size: 30px;
+  text-transform: lowercase;
+}
+
+.second_story .container-fluid .row p {
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.diet-slider-price {
+  background-color: #78bf4d;
+}
+
+.diet-slider-price .col-md-4 {
+  cursor: pointer;
+}
+
+.diet-slider-price .price-content {
+  margin-top: 70px;
+}
+
+.diet-slider-price .select-week-4 {
+  background-color: #83d352;
+  padding: 20px;
+}
+
+.diet-slider-price .select-week-4 h5 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.diet-slider-price .select-week-12 {
+  background-color: #26a920;
+  padding: 20px;
+}
+
+.diet-slider-price .select-week-12 h5 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.diet-slider-price .year-1 {
+  background-color: #008f4a;
+  padding: 20px;
+}
+
+.diet-slider-price .year-1 h5 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.diet-slider-price .show-price {
+  background-color: white;
+  padding: 20px;
+}
+
+.diet-slider-price .show-price p {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: initial;
+}
+
+.diet-slider-price .price-text-content {
+  background-color: #005e32;
+  padding: 60px;
+}
+
+.diet-slider-price h6 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+#contact_page .col-lg-8 {
+  margin-left: 75px;
+  margin-top: 50px;
+}
+
+#contact_page .section-heading h3 {
+  font-size: 50px;
+}
+
+#contact_page .m-nav-footer {
+  padding: 50px;
+}
+
+#contact_page .m-nav-footer .m-nav-footer__item {
+  font-size: 25px;
+}
+
+#checkbox_content {
+  color: black;
+  font-size: 15px;
+  text-align: justify;
+}
+
+#first_story_title {
+  color: black;
+  font-weight: bold;
+}
+
+.flex-direction-nav .flex-nav-next .flex-next {
+  visibility: hidden;
+}
+
+.flex-direction-nav .flex-nav-prev .flex-prev {
+  visibility: hidden;
+}
+
+.ds .form-control:focus {
+  border-color: #aaaaa9;
+}
+
+.ds .form-control::-webkit-input-placeholder {
+  color: #aaaaa9;
+}
+
+.ds .form-control::-moz-placeholder {
+  color: #aaaaa9;
+}
+
+.ds .form-control:-ms-input-placeholder {
+  color: #aaaaa9;
+}
+
+.ds .form-control::-ms-input-placeholder {
+  color: #aaaaa9;
+}
+
+.ds .form-control::placeholder {
+  color: #aaaaa9;
+}
+
+.ds input[type=text] {
+  color: black;
+  text-transform: lowercase;
+}
+
+.ds textarea {
+  color: black;
+  text-transform: lowercase;
+}
+
+.ds input[type=email] {
+  color: black;
+  text-transform: lowercase;
+}
+
+.ds .form-control {
+  color: black;
+  text-transform: lowercase;
+}
+
+.stripe_payment_agree {
+  padding: 15px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  max-width: 461px;
+  margin-left: 277px;
+}
+
+.stripe_payment_agree label {
+  color: black;
+}
+
+.disabled_button {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.loading {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.w3-modal {
+  z-index: 3;
+  display: none;
+  padding-top: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.w3-modal-content {
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  width: 600px;
+}
+
+@media (max-width: 600px) {
+  .w3-modal-content {
+    margin: 0 10px;
+    width: auto !important;
+  }
+
+  .w3-modal {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .w3-modal-content {
+    width: 500px;
+  }
+
+  .w3-modal {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 993px) {
+  .w3-modal-content {
+    width: 900px;
+  }
+
+  .w3-hide-large {
+    display: none !important;
+  }
+
+  .w3-sidebar.w3-collapse {
+    display: block !important;
+  }
+}
+
+.w3-animate-zoom {
+  -webkit-animation: animatezoom 0.6s;
+          animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.w3-display-topright {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  .s-py-lg-130 .container {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .second_story .container-fluid .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+
+  .second_story .container-fluid .row h1 {
+    font-size: 40px;
+  }
+
+  .second_story .container-fluid .row p {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #slide {
+    margin-top: 40px;
+  }
+
+  #timetables #show_result {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .sf-menu {
+    border-top-color: #78bf4d;
+  }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1300px) {
+  .second_story .container-fluid .row {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+  }
+
+  .second_story .container-fluid .row h1 {
+    font-size: 40px;
+  }
+
+  .second_story .container-fluid .row p {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .second_story .container-fluid .row {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+  }
+
+  .second_story .container-fluid .row h1 {
+    font-size: 40px;
+  }
+
+  .second_story .container-fluid .row p {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+
+  .diet-slider-price .select-week-4 h5 {
+    font-size: 35px;
+  }
+
+  .diet-slider-price .select-week-12 h5 {
+    font-size: 35px;
+  }
+
+  .diet-slider-price .year-1 h5 {
+    font-size: 35px;
+  }
+
+  .diet-slider-price .show-price p {
+    font-size: 25px;
+    line-height: initial;
+  }
+
+  .diet-slider-price h6 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  #price_title {
+    font-size: 50px;
+  }
+
+  #price_small_title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1700px) and (min-width: 1500px) {
+  .second_story .container-fluid .row {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .second_story .container-fluid {
+    padding: 0px;
+  }
+
+  .second_story .container-fluid .row {
+    padding: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+  }
+
+  .second_story .container-fluid .row .col-md-4 {
+    padding-top: 8px;
+  }
+
+  .second_story .container-fluid .row .col-md-4 img {
+    opacity: 1;
+  }
+
+  .second_story .container-fluid .row .story {
+    margin-top: 155px;
+  }
+
+  .second_story .container-fluid .row .label_story {
+    font-weight: bold;
+  }
+
+  .second_story .container-fluid .row h1 {
+    color: #78bf4d;
+    font-weight: bold;
+    font-size: 55px;
+  }
+
+  .second_story .container-fluid .row label {
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: lowercase;
+  }
+
+  .second_story .container-fluid .row p {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .diet-slider-price {
+    background-color: #78bf4d;
+  }
+
+  .diet-slider-price .container-fluid {
+    padding: 0px;
+  }
+
+  .diet-slider-price .container-fluid .row {
+    padding: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .diet-slider-price .col-md-4 {
+    padding: 20px;
+  }
+
+  .diet-slider-price .price-content {
+    margin-top: 70px;
+  }
+
+  .diet-slider-price .select-week-4 {
+    background-color: #83d352;
+    padding: 20px;
+  }
+
+  .diet-slider-price .select-week-4 h5 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .diet-slider-price .select-week-12 {
+    background-color: #26a920;
+    padding: 20px;
+  }
+
+  .diet-slider-price .select-week-12 h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .diet-slider-price .year-1 {
+    background-color: #008f4a;
+    padding: 20px;
+  }
+
+  .diet-slider-price .year-1 h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .diet-slider-price .show-price {
+    background-color: white;
+    padding: 20px;
+  }
+
+  .diet-slider-price .show-price p {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: initial;
+  }
+
+  .diet-slider-price .price-text-content {
+    background-color: #005e32;
+    padding: 20px;
+  }
+
+  .diet-slider-price h6 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .newsletter #send_contact {
+    padding: 5px 25px;
+  }
+
+  .diet-step-10 .final-price-section .final-price {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #stripe_pay {
+    min-width: 100%;
+  }
+
+  .stripe_payment_agree {
+    max-width: 100%;
+  }
+
+  .diet-step-10 .final-price-section {
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+
+  .diet-step-10 .final-price-section .final-price {
+    display: grid;
+    -webkit-box-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+
+  #contact_page .block-contact {
+    display: block;
+  }
+
+  #contact_page .block-contact .food-network {
+    max-width: 50%;
+  }
+
+  #contact_page .block-contact .o-footer__nav-footer {
+    -webkit-box-align: center;
+            align-items: center;
+  }
+
+  #contact_page .block-contact .o-footer__nav-footer a {
+    font-size: 25px;
+  }
+
+  #contact_page .block-contact .contact-input {
+    max-width: 100%;
+  }
+
+  .diet-slider3 .video-desc {
+    display: block;
+  }
+
+  .diet-slider3 .video-desc .video-link img {
+    margin-top: 30px;
+  }
+
+  #price_page .price-box {
+    display: grid;
+    grid-row-gap: 40px;
+  }
+
+  #send_contact {
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 10px 20px;
+  }
+
+  #test-form .newsletter {
+    display: block;
+    text-align: center;
+  }
+
+  #test-form .newsletter input {
+    width: 30%;
+  }
+
+  #download_pdf {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .diet-slider-price .container-fluid .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .diet-slider-price .col-md-4 {
+    padding: 0px;
+  }
+
+  .diet-slider-price .divider {
+    margin-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .diet-slider-price .price-content {
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+  }
+
+  .diet-slider-price .select-week-4 h5 {
+    font-size: 30px;
+  }
+
+  .diet-slider-price .select-week-12 h5 {
+    font-size: 30px;
+  }
+
+  .diet-slider-price .year-1 h5 {
+    font-size: 30px;
+  }
+
+  .diet-slider-price .show-price p {
+    font-size: 30px;
+    line-height: initial;
+  }
+
+  .diet-slider-price h6 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+  }
+
+  #price_title {
+    font-size: 30px;
+  }
+
+  #price_small_title {
+    font-size: 20px;
+  }
+
+  .second_story .container-fluid .row {
+    margin: 0px;
+  }
+
+  .second_story .container-fluid .row .col-md-5 {
+    padding-top: 30px;
+  }
+
+  .second_story .container-fluid .row h1 {
+    font-size: 30px;
+  }
+
+  .second_story .container-fluid .row p {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .second_story .container-fluid .row .story {
+    margin-top: 10px;
+  }
+
+  .second_story .container-fluid .row .label_story {
+    font-size: 20px;
+  }
+
+  #contact_page .m-nav-footer .m-nav-footer__item {
+    font-size: 15px;
+  }
+
+  #contact_page .col-lg-8 {
+    margin: 0px;
+  }
+
+  #contact_page .section-heading h3 {
+    font-size: 35px;
+  }
+
+  #contact_page .divider-50 {
+    margin-top: 0px;
+  }
+
+  .diet-step-10 .container-fluid {
+    padding: 0px;
+  }
+
+  .diet-step-10 .col-md-4 {
+    margin-bottom: 15px;
+  }
+
+  .diet-step-10 .btn {
+    font-size: 18px;
+    min-width: 330px;
+    background-color: #009cde;
+    padding: 8px;
+  }
+
+  .diet-step-10 .show-price p {
+    font-size: 30px;
+    margin-left: 85px;
+  }
+
+  .diet-step-10 #price-checked-12 {
+    margin-left: 20px;
+  }
+
+  .diet-step-10 #price-checked-year {
+    margin-left: 20px;
+  }
+
+  .diet-step-10 .price-text-content h5 {
+    font-size: 30px;
+  }
+
+  .diet-step-10 .price-text-content h6 {
+    font-size: 21px;
+  }
+
+  #modal_stripe_pay .w3-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #modal_stripe_pay .w3-container .btn {
+    min-width: 308px;
+  }
+
+  .stripe_payment_agree {
+    margin-left: 0px;
+  }
+}
+
+.newsletter {
+  display: grid;
+  grid-template-columns: 0fr 1.5fr 1.5fr 1fr 1fr;
+  -webkit-box-align: center;
+          align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.newsletter p {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  color: black;
+  font-family: Roboto, sans-serif;
+}
+
+.newsletter h2 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.newsletter .correct-answer {
+  width: 50%;
+  padding: 9px 15px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.newsletter .formula {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  margin: 15px 0;
+}
+
+.newsletter .send-contact:hover {
+  border: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: none;
+  background-color: #78bf4d;
+}
+
+.newsletter .send-contact {
+  border: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: none;
+  background-color: white;
+}
+
+.newsletter .able-to-contact {
+  background-color: #78bf4d;
+}
+
+#send_contact {
+  color: black;
+  padding: 5px;
+  font-size: 27px;
+}
+
+#footer-process .progress-name {
+  top: -38px;
+}
+
+.footer-list .food-network {
+  max-width: 75%;
+}
+
+.white-input {
+  background-color: white !important;
+  border-color: lightgrey !important;
+}
+
+input[type=checkbox] + label:before {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  line-height: 23px;
+}
+
+#terms-con {
+  color: black;
+  text-decoration: underline;
+}
+
+#terms-con:hover {
+  color: #78bf4d;
+}
+
+#test-form input,
+#test-form textarea {
+  font-size: 20px;
+  font-style: italic;
+}
+
+#test-form #message {
+  padding-top: 9px;
+}
+
+#test-form .policy-terms {
+  margin: 0;
+}
+
+.diet-step-10 .final-price {
+  max-width: 300px;
+  margin-right: 30px;
+}
+
+.diet-step-10 .final-price:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.m-item-summary__title.height-line {
+  line-height: 60px;
+}
+
+.one-recipe .recipe-width {
+  width: 300px;
+}
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+
+.StripeElement {
+  box-sizing: border-box;
+  height: 40px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #78bf4d;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
