@@ -1,7 +1,6 @@
 @extends('masters.master')
 
 @section('content')
-
 <section class="s-pt-40 s-pb-30 s-py-lg-130 timetable ds text-center text-md-left" id="timetables">
     <div class="container" id="show_result">
         <div class="container">
